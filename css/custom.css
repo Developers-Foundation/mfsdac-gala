@@ -1,0 +1,32 @@
+/*!
+ * Start Bootstrap - New Age v3.3.7 (http://startbootstrap.com/template-overviews/new-age)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+#eiffel-tower {
+  margin-top: 25vh;
+}
+#event-name {
+  font-family: 'Pinyon Script', cursive;
+}
+header {
+  color: #e3c05c;
+}
+@media (max-width: 767px) {
+  header .header-content .header-content-inner h1 {
+    font-size: 50px;
+  }
+}
+@media (min-width: 768px) {
+  header .header-content .header-content-inner h1 {
+    font-size: 75px;
+  }
+}
+@media (min-width: 992px) {
+  header .header-content .header-content-inner h1 {
+    font-size: 100px;
+  }
+}
+.header-content-inner {
+  text-align: center;
+}

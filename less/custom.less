@@ -1,0 +1,40 @@
+@import "variables.less";
+
+#eiffel-tower {
+    margin-top: 25vh;
+}
+
+#event-name {
+    font-family: 'Pinyon Script', cursive;
+}
+
+header {
+    color: @gold;
+    // Fancy border option
+    // @media (min-width: 768px) {
+    //     background-image: url('../img/border.png');
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    // }
+    .header-content .header-content-inner {
+        @media (max-width: 767px) {
+            h1 {
+                font-size: 50px;
+            }
+        }
+        @media (min-width: 768px) {
+                h1 {
+                    font-size: 75px;
+                }
+            }
+        @media (min-width: 992px) {
+            h1 {
+                font-size: 100px;
+            }
+        }
+    }
+}
+
+.header-content-inner {
+    text-align: center;
+}
