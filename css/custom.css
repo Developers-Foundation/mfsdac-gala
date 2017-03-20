@@ -30,3 +30,12 @@ header {
 .header-content-inner {
   text-align: center;
 }
+#sponsors {
+  padding: 50px 0;
+}
+#sponsors .container h2 {
+  text-align: center;
+}
+#sponsors .container .row {
+  margin-top: 25px;
+}
