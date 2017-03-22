@@ -131,7 +131,7 @@ header {
     left: 50%;
   }
   #schedule .timeline > li {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     min-height: 100px;
   }
   #schedule .timeline > li .timeline-panel {
