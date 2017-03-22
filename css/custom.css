@@ -39,7 +39,11 @@ header {
 #map {
   margin-top: 25px;
 }
+<<<<<<< HEAD
 #map-overlay {
+=======
+.overlay {
+>>>>>>> 3a0461003f5fd2f2af16aac10094d9357b91620d
   background: transparent;
   position: relative;
   width: 100%;
