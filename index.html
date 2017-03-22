@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pinyon+Script" rel="stylesheet">
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="lib/simple-line-icons/css/simple-line-icons.css">
@@ -235,7 +235,7 @@
             <div id="map" class="row">
                 <div class="col-lg-12">
                     <!-- Source: http://stackoverflow.com/questions/21992498/disable-mouse-scroll-wheel-zoom-on-embedded-google-maps -->
-                    <div class="overlay" onClick="style.pointerEvents='none'"></div>
+                    <div id="map-overlay" onClick="style.pointerEvents='none'"></div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.9379120347944!2d-79.55004708425213!3d43.60783257912278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b481aa1e96cc3%3A0x557b8fe9f3b6f555!2s739+Brown&#39;s+Line%2C+Etobicoke%2C+ON+M8W+3V7!5e0!3m2!1sen!2sca!4v1490143444949" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen>
                     </iframe>
                 </div>
@@ -260,18 +260,14 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2016 Start Bootstrap. All Rights Reserved.</p>
-            <ul class="list-inline">
-                <li>
-                    <a href="#">Privacy</a>
-                </li>
-                <li>
-                    <a href="#">Terms</a>
-                </li>
-                <li>
-                    <a href="#">FAQ</a>
-                </li>
-            </ul>
+            <p>
+                &copy;
+                <script type="text/javascript">
+                    // Always show the current year
+                    var d = new Date()
+                    document.write(d.getFullYear())
+                </script>
+                MFSDAC. Designed by Developers' Foundation. All Rights Reserved.</p>
         </div>
     </footer>
 

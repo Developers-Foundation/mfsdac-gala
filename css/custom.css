@@ -39,7 +39,7 @@ header {
 #map {
   margin-top: 25px;
 }
-.overlay {
+#map-overlay {
   background: transparent;
   position: relative;
   width: 100%;
