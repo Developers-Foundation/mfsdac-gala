@@ -9,6 +9,9 @@
 #event-name {
   font-family: 'Pinyon Script', cursive;
 }
+.ticket-btn {
+  margin-top: 25px;
+}
 header {
   color: #e3c05c;
 }
@@ -38,4 +41,188 @@ header {
 }
 .abt-lnk:hover {
   color: black;
+}
+#map {
+  margin-top: 25px;
+}
+#map-overlay {
+  background: transparent;
+  position: relative;
+  width: 100%;
+  height: 450px;
+  /* your iframe height */
+  top: 450px;
+  /* your iframe height */
+  margin-top: -450px;
+  /* your iframe height */
+}
+#social {
+  margin-top: 25px;
+}
+#schedule .timeline {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+#schedule .timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: "";
+  width: 2px;
+  background-color: #f1f1f1;
+  left: 40px;
+  margin-left: -1.5px;
+}
+#schedule .timeline > li {
+  margin-bottom: 50px;
+  position: relative;
+  min-height: 50px;
+}
+#schedule .timeline > li:before,
+#schedule .timeline > li:after {
+  content: " ";
+  display: table;
+}
+#schedule .timeline > li:after {
+  clear: both;
+}
+#schedule .timeline > li .timeline-panel {
+  width: 100%;
+  float: right;
+  padding: 0 20px 0 100px;
+  position: relative;
+  text-align: left;
+}
+#schedule .timeline > li .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+#schedule .timeline > li .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+#schedule .timeline > li .timeline-image {
+  left: 0;
+  margin-left: 0;
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  z-index: 100;
+  background-color: #fdcc52;
+  color: white;
+  border-radius: 100%;
+  border: 7px solid #f1f1f1;
+  text-align: center;
+}
+#schedule .timeline > li .timeline-image h4 {
+  font-size: 10px;
+  margin-top: 12px;
+  line-height: 14px;
+}
+#schedule .timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  text-align: left;
+  padding: 0 20px 0 100px;
+}
+#schedule .timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+#schedule .timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+#schedule .timeline > li:last-child {
+  margin-bottom: 0;
+}
+#schedule .timeline .timeline-heading h4 {
+  margin-top: 0;
+  color: inherit;
+}
+#schedule .timeline .timeline-heading h4.subheading {
+  text-transform: none;
+}
+#schedule .timeline .timeline-body > p,
+#schedule .timeline .timeline-body > ul {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  #schedule .timeline:before {
+    left: 50%;
+  }
+  #schedule .timeline > li {
+    margin-bottom: 50px;
+    min-height: 100px;
+  }
+  #schedule .timeline > li .timeline-panel {
+    width: 41%;
+    float: left;
+    padding: 10px 20px 20px 30px;
+    text-align: right;
+  }
+  #schedule .timeline > li .timeline-image {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+  }
+  #schedule .timeline > li .timeline-image h4 {
+    font-size: 13px;
+    margin-top: 16px;
+    line-height: 18px;
+  }
+  #schedule .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    text-align: left;
+    padding: 10px 30px 20px 20px;
+  }
+}
+@media (min-width: 992px) {
+  #schedule .timeline > li {
+    min-height: 150px;
+  }
+  #schedule .timeline > li .timeline-panel {
+    padding: 10px 20px 20px;
+  }
+  #schedule .timeline > li .timeline-image {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+  }
+  #schedule .timeline > li .timeline-image h4 {
+    font-size: 18px;
+    margin-top: 30px;
+    line-height: 26px;
+  }
+  #schedule .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 10px 20px 20px;
+  }
+}
+@media (min-width: 1200px) {
+  #schedule .timeline > li {
+    min-height: 170px;
+  }
+  #schedule .timeline > li .timeline-panel {
+    padding: 10px 20px 20px 100px;
+  }
+  #schedule .timeline > li .timeline-image {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px;
+  }
+  #schedule .timeline > li .timeline-image h4 {
+    margin-top: 40px;
+  }
+  #schedule .timeline > li.timeline-inverted > .timeline-panel {
+    padding: 10px 100px 20px 20px;
+  }
 }

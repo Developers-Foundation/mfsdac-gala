@@ -1,27 +1,20 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [New Age](http://startbootstrap.com/template-overviews/new-age/)
+## Required
+Please download and install [Node](https://nodejs.org/en/) if you don't have it.
 
-[New Age](http://startbootstrap.com/template-overviews/new-age/) is a web app landing page theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+## Setup
+After installing Node:
 
-## Getting Started
+1) Open up console and move to the root directory of your local copy of this repo.
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/new-age/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-new-age.git`
-* Fork the repo
+2) Run `npm install` to get website dependencies and wait for it to complete.
 
-## Bugs and Issues
+## Hosting the Website Locally
+Run `gulp dev`, it should open up a new browser window with URL `http://localhost:3000`.
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-new-age/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/new-age/).
+> Changing any of the HTML, LESS, Javascript, PHP or img files will automatically apply and update the browser!
 
-## Creator
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+> __NOTE__: To edit styles, please only modify the `custom.less` and the "custom" section of the `variables.less` files to avoid breaking the template's original styles.
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-new-age/blob/gh-pages/LICENSE) license.
+If you accidentally close the browser/tab containing the website but still have `gulp dev` process running, you can reconnect to it by entering
+the URL `http://localhost:3000` into your browser.
