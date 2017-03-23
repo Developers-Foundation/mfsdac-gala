@@ -30,3 +30,12 @@ header {
 .header-content-inner {
   text-align: center;
 }
+.service-heading {
+  font-weight: bold;
+}
+.abt-lnk {
+  color: white;
+}
+.abt-lnk:hover {
+  color: black;
+}
