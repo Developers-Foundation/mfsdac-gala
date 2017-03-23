@@ -9,6 +9,9 @@
 #event-name {
   font-family: 'Pinyon Script', cursive;
 }
+.ticket-btn {
+  margin-top: 25px;
+}
 header {
   color: #e3c05c;
 }
