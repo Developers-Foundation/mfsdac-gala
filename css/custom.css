@@ -11,9 +11,17 @@
 }
 .ticket-btn {
   margin-top: 25px;
+  font-size: 15px;
+}
+.sponsor-btn {
+  color: black;
+  font-size: 20px;
 }
 header {
   color: #e3c05c;
+}
+header .header-content .header-content-inner h1 {
+  margin-top: 30px;
 }
 @media (max-width: 767px) {
   header .header-content .header-content-inner h1 {
@@ -46,10 +54,14 @@ hr {
   margin-top: 25px;
 }
 .service-heading {
-  font-weight: bold;
+  font-weight: 700;
+}
+.about-img {
+  width: 9vw;
 }
 .abt-lnk {
-  color: white;
+  color: #777777;
+  text-decoration: underline;
 }
 .abt-lnk:hover {
   color: black;
