@@ -66,6 +66,12 @@ hr {
 .abt-lnk:hover {
   color: black;
 }
+.mail-link {
+  color: #777777;
+}
+.mail-link:hover {
+  color: black;
+}
 #map {
   margin-top: 25px;
 }
